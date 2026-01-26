@@ -1,4 +1,4 @@
-package Personal;
+package Projects;
 
 
 public class Project_01_Student {

@@ -1,4 +1,4 @@
-package Personal;
+package Basic;
 
 public class Array_04 {
     public static void main(String[] arg){

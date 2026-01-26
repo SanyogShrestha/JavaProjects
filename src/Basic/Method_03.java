@@ -1,4 +1,4 @@
-package Personal;
+package Basic;
 
 public class Method_03 {
 

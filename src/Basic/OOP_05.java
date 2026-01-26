@@ -1,4 +1,4 @@
-package Personal;
+package Basic;
 
 public class OOP_05 {
     public static void main(String[] args) {

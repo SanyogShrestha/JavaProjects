@@ -1,4 +1,4 @@
-package Personal;
+package Basic;
 import java.util.Scanner;
 
 public class Main_01 {
