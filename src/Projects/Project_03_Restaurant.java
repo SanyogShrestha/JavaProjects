@@ -5,11 +5,11 @@ import java.util.Scanner;
 
 public class Project_03_Restaurant {
     public static void main(String[] args) {
-            Restaurant res = new Restaurant();
-            res.addMenuItems();   // Step 1: add MOMO items
-            res.showMenu();       // Step 2: display menu
-            res.takeOrder();      // Step 3: take user orders
-            res.printBill();      // Step 4: print bill
+        Restaurant res = new Restaurant();
+        res.addMenuItems();   // Step 1: add MOMO items
+        res.showMenu();       // Step 2: display menu
+        res.takeOrder();      // Step 3: take user orders
+        res.printBill();      // Step 4: print bill
     }
 }
 
@@ -26,6 +26,7 @@ class Restaurant {
         menu.add(new MenuItem(3, "Jhol MOMO", 280.0));
         menu.add(new MenuItem(4, "Buff MOMO", 230.0));
         menu.add(new MenuItem(5, "Pork MOMO", 220.0));
+        menu.add(new MenuItem(6, "fry MOMO", 280.0));
     }
 
     // 2. Show menu
@@ -44,8 +45,6 @@ class Restaurant {
         while (ordering) {
             System.out.print("Enter item number: ");
             int sn = sc.nextInt();
-            System.out.print("Enter quantity: ");
-            int qty = sc.nextInt();
 
             // Find MenuItem by sn
             MenuItem chosenItem = null;
@@ -53,8 +52,13 @@ class Restaurant {
                 if (item.sn == sn) {
                     chosenItem = item;
                     break;
+                } else {
+                    System.out.println("Invalid item number");
                 }
             }
+
+            System.out.print("Enter quantity: ");
+            int qty = sc.nextInt();
 
             if (chosenItem != null) {
                 orders.add(new OrderItem(chosenItem, qty));
@@ -89,32 +93,34 @@ class MenuItem {
     String foodItems;
     double price;
 
-    MenuItem(int sn, String foodItems, double price){
+    MenuItem(int sn, String foodItems, double price) {
         this.sn = sn;
         this.foodItems = foodItems;
         this.price = price;
     }
 
-    public void displayItem(){
+    public void displayItem() {
         // %-20s -> left-align string in 20 characters
         // %10.2f -> right-align float with 2 decimal places
         System.out.printf("%-20s %10.2f\n", sn + ". " + foodItems, price);
     }
 }
 
-class OrderItem{
+class OrderItem {
     MenuItem item;
     int quantity;
 
-    OrderItem(MenuItem item, int quantity){
+    OrderItem(MenuItem item, int quantity) {
         this.item = item;
         this.quantity = quantity;
     }
-    public double calculatePrice(){
+
+    public double calculatePrice() {
         return quantity * item.price;
 
     }
-    public void displayOrder(){
+
+    public void displayOrder() {
         System.out.printf("%-20s x%-2d %10.2f\n ", item.foodItems, quantity, calculatePrice());
     }
 }
