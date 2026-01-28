@@ -25,7 +25,6 @@ public class Operators_05 {
         System.out.println(z);
 
 
-
         //Assignment Operators
         int num = 10;
         num += 3;
@@ -45,7 +44,6 @@ public class Operators_05 {
         System.out.println(salary);
 
 
-
         //Comparison Operators
              /* == 	Equal to 	                x == y
                 != 	Not equal               	x != y
@@ -63,7 +61,6 @@ public class Operators_05 {
         System.out.println(pinLength < 8);
 
 
-
         //Logical Operators
         boolean isLoggedIn = true;
         boolean isAdmin = false;
@@ -74,7 +71,6 @@ public class Operators_05 {
         // ||:  Returns true if one of the statements is true
         System.out.println("Not logged in: " + (!isLoggedIn));
         //  !:  Reverse the result, returns false if the result is true
-
 
 
         //Operator Precedence
@@ -102,20 +98,5 @@ public class Operators_05 {
 
         System.out.println(result3);
         System.out.println(result4);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
