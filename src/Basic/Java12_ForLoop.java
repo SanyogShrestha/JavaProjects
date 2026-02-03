@@ -1,6 +1,6 @@
 package Basic;
 
-public class ForLoop_12 {
+public class Java12_ForLoop {
     public static void main(String[] args) {
         //ForLoop: when we know exactly how many times to loop
         /*

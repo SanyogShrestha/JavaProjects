@@ -1,6 +1,6 @@
 package Basic;
 
-public class Math_07 {
+public class Java07_Math {
     public static void main(String[] args) {
         //The Java Math class has many methods that allows to perform mathematical tasks on numbers.
 

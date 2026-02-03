@@ -1,6 +1,6 @@
 package Basic;
 
-public class Variables_02 {
+public class Java02_Variables {
     public static void main(String[] args) {
 
         /* Syntax: type variableName = value;

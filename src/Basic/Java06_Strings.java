@@ -1,6 +1,6 @@
 package Basic;
 
-public class Strings_06 {
+public class Java06_Strings {
     public static void main(String[] args) {
         //A String variable contains a collection of characters surrounded by double quotes (""):
         //A String in Java is actually an object, which means it contains methods that can perform certain operations on strings.

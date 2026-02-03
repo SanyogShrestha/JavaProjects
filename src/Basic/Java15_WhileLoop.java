@@ -1,6 +1,6 @@
 package Basic;
 
-public class WhileLoop_11 {
+public class Java15_WhileLoop {
     public static void main(String[] args) {
         //WhileLoop: repeats a block of code as long as the specified condition is true
 
@@ -46,7 +46,5 @@ public class WhileLoop_11 {
             }
             dice = dice + 1;
         }
-
-
     }
 }

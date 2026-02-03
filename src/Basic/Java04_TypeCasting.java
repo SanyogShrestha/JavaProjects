@@ -1,6 +1,6 @@
 package Basic;
 
-public class TypeCasting_04 {
+public class Java04_TypeCasting {
     public static void main(String[] args) {
 
         //Type casting means converting one data type into another

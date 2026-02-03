@@ -1,6 +1,6 @@
 package Basic;
 
-public class Array_14 {
+public class Java14_Array {
     public static void main(String[] args) {
         //Array: To store multiple values in a single variable
         //To declare array: VariableType[] name;

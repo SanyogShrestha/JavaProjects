@@ -1,6 +1,6 @@
 package Basic;
 
-public class Switch_10 {
+public class Java10_Switch {
     public static void main(String[] args) {
         //Switch: statement selects one of many code blocks to be executed:
 

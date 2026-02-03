@@ -1,6 +1,6 @@
 package Basic;
 
-public class Methods_15 {
+public class Java15_Methods {
     //Method: A method is a block of code which only runs when it is called
     // void: indicates that method should not return a value
     static void myMethod() {
@@ -44,6 +44,31 @@ public class Methods_15 {
             return 0;
         }
     }
+    //Halting Condition
+    public static int sum(int start, int end) {
+        if (end > start) {
+            return end + sum (start, end -1);
+        } else {
+            return end;
+        }
+    }
+
+    static void countDown(int n) {
+        if (n > 0) {
+            System.out.println(n);
+            countDown(n - 1);
+        }
+   }
+
+   //Factorial with Recursion
+    static int factorial(int n) {
+        if (n > 1) {
+            return n * factorial(n - 1);
+        } else {
+            return 1;
+        }
+    }
+
 
 
 
@@ -81,5 +106,9 @@ public class Methods_15 {
 
         int result = sum(10);
         System.out.println(result);
+
+        System.out.println(sum(5, 10));
+        countDown(10);
+        System.out.println("Factorial of 10: " + factorial(10));
     }
 }

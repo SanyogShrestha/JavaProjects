@@ -1,6 +1,6 @@
 package Basic;
 
-public class IF_Else_09 {
+public class Java09_IfElse {
     public static void main(String[] args) {
        // Every if statement needs a condition that results in true or false.
 

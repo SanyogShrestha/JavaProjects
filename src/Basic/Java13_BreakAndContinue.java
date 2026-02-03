@@ -1,6 +1,6 @@
 package Basic;
 
-public class BreakAndContinue_13 {
+public class Java13_BreakAndContinue {
     public static void main(String[] args) {
         //break: statement can also be used to jump out of a loop or switch statement.
         for (int i = 0; i < 10; i++) {

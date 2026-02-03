@@ -1,6 +1,6 @@
 package Basic;
 
-public class DataTypes_03 {
+public class Java03_DataTypes {
     public static void main(String[] args) {
 
         //a variable in Java must be a specified data type:

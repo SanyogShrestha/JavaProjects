@@ -1,6 +1,6 @@
 package Basic;
 
-public class Main_01 {                          //Every line of code that runs in Java must be inside a class
+public class Java01_Main {                          //Every line of code that runs in Java must be inside a class
     public static void main(String[] args){ //Any code placed inside the main() method will be executed.
 
         System.out.print("Hi Buddy! "); //we can use the print() method to print a line of text to the screen:

@@ -1,8 +1,6 @@
 package Basic;
 
-import java.sql.SQLOutput;
-
-public class Boolean_08 {
+public class Java08_Boolean {
     public static void main(String[] args) {
         //boolean store true and false values
         boolean abc = true;
